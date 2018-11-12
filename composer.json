@@ -1,0 +1,13 @@
+{
+    "name": "dawid/bok",
+    "authors": [
+        {
+            "name": "Dawid Dziedzic",
+            "email": "dziedzicdev@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+    	"psr-4": {"Main\\": "src/"}
+    }
+}
