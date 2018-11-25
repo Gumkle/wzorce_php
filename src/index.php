@@ -2,7 +2,7 @@
 
 require  __DIR__.'/../vendor/autoload.php';
 
-use Main\Metodafabrykujaca\Client;
+use Main\Prototyp\Client;
 
 
 $worker = new Client();

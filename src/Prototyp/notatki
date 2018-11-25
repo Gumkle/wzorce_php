@@ -1,0 +1,5 @@
+Jedyne zastosowanie klonowania jakie widzę, to sytuacja w której potrzebujesz
+tworzyć kolejne, identyczne instancje wielokrotnie zmodyfikowanych obiektów.
+Nie wiem, kiedy taka sytuacja może nastąpić, ale jeżeli nastąpi to wzorzec
+nie jest niczym trudnym do zaimplementowania - wystarczy słówko kluczowe
+clone.

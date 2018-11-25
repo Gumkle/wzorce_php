@@ -1,0 +1,3 @@
+Ta metoda wydaje się mieć sens tylko i wyłącznie wtedy, kiedy chcielibyśmy
+zaprogramować jakies zachowanie przed stworzeniem obiektu,
+przed uruchomieniem konstruktora.
