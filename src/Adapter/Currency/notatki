@@ -1,0 +1,10 @@
+Currency przedstawia rozwiązanie problemu firmy, która rozszerzyła
+działalność z rynku amerykańskiego na europejski i potrzebuje operacji
+w ojro
+
+Nowa klasa EuroCalc tak naprawdę nie posiada żadnych nowości, które
+wymagałyby adaptera. Rola adaptera jest zbędna, nie robi absolutnie nic
+i nic nie ułatwia. Metoda miałaby sens w przypadku, w którym dziedziczyłaby
+po tym samym interfejsie co DolarCalc i zwalczała problemy z typowaniem,
+ale jako, że jest po prostu kolejną klasą po drodze do abstrakcji
+interfejsu to nie czaję tego przykładu XD

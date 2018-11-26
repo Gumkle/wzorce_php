@@ -2,7 +2,7 @@
 
 require  __DIR__.'/../vendor/autoload.php';
 
-use Main\Prototyp\Client;
+use Main\Adapter\Currency\Client;
 
 
 $worker = new Client();
