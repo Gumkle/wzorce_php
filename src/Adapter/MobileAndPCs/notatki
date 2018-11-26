@@ -1,0 +1,15 @@
+Problem przedstawiony w podręczniku jest taki, że mamy napisany serwis
+tylko i wyłącznie pod kątem komputerów osobistych. Zadanie polega na
+napisaniu obsługi urządzeń mobilnych i stworzenia adaptera pomiędzy nimi.
+
+W starym systemie jest klasa wyswietlajaca interfejs dla desktopow,
+w nowym systemie jest klasa wyswietlajaca interfejs dla mobilek.
+Interfejsu obu tych klas są ze sobą niezgodne i tutaj wchodzi MobileAdapter,
+który implementuje interfejs starszy (desktopu) i wywołuje klasę Mobile.
+
+Adapter rzutuje metody zawarte w starym interfejsie na ich odpowiedniki
+w obiekcie implementujacym nowy interfejs.
+
+Generalnie to ten przykład nie działa tak jak powinien, bo na froncie
+nie chciało mi się bawić ze stylami, ale jest za to bardzo ślicznie
+opisany powyżej.
